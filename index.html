@@ -181,68 +181,6 @@ div#comments-popup {
 <div id="action-controls" style="width: 19%; padding: 1%;position: absolute;left:0;">
     <video controls autoplay playsinline style="width: 105%;margin-left: -15px;margin-top: -23px; display: none;"></video>
 
-    <div id="select-tools">
-    <h2>Select Tools</h2>
-    <input type="checkbox" id="pencil" checked>
-    <label for="pencil">pencil</label><br>
-
-    <input type="checkbox" id="marker" checked>
-    <label for="marker">marker</label><br>
-
-    <input type="checkbox" id="eraser" checked>
-    <label for="eraser">eraser</label><br>
-
-    <input type="checkbox" id="text" checked>
-    <label for="text">text</label><br>
-
-    <input type="checkbox" id="image" checked>
-    <label for="image">image</label><br>
-
-    <input type="checkbox" id="pdf" checked>
-    <label for="pdf">pdf</label><br>
-
-    <input type="checkbox" id="line" checked>
-    <label for="line">line</label><br>
-
-    <input type="checkbox" id="arrow" checked>
-    <label for="arrow">arrow</label><br>
-
-	<input type="checkbox" id="zoom">
-    <label for="zoom">zoom</label><br>
-
-    <input type="checkbox" id="dragSingle" checked>
-    <label for="dragSingle">dragSingle</label><br>
-
-    <input type="checkbox" id="dragMultiple" checked>
-    <label for="dragMultiple">dragMultiple</label><br>
-
-    <input type="checkbox" id="arc" checked>
-    <label for="arc">arc</label><br>
-
-    <input type="checkbox" id="rectangle" checked>
-    <label for="rectangle">rectangle</label><br>
-
-    <input type="checkbox" id="quadratic" checked>
-    <label for="quadratic">quadratic</label><br>
-
-    <input type="checkbox" id="bezier" checked>
-    <label for="bezier">bezier</label><br>
-
-    <input type="checkbox" id="undo" checked>
-    <label for="undo">undo</label><br>
-
-    <input type="checkbox" id="lineWidth" checked>
-    <label for="lineWidth">lineWidth</label><br>
-
-    <input type="checkbox" id="colorsPicker" checked>
-    <label for="colorsPicker">colorsPicker</label><br>
-
-    <input type="checkbox" id="extraOptions" checked>
-    <label for="extraOptions">extraOptions</label><br>
-
-    <input type="checkbox" id="code" checked>
-    <label for="code">code</label><br><br>
-    </div>
 
     <hr>
     <div>
@@ -261,91 +199,7 @@ div#comments-popup {
     </div>
 
     <hr>
-    <h2>Shortcut Keys</h2>
-    ctrl+t (to display text-fonts box)<br>
-    ctrl+z (to undo last-single shape)<br>
-    ctrl+a (to select all shapes)<br>
-    ctrl+c (copy last-selected shape)<br>
-    ctrl+v (paste last-copied shape)<br><br>
-    ctrl+mousedown (to copy/paste all shapes)
 </div>
-
-<div class="extra-controls">
-    <button id="export-as-image">Export as Image</button>
-    <button id="btn-display-undo-popup">Undo</button>
-</div>
-
-<div id="light" class="white_content">
-    <button id="btn-close-undo-popup" style="float:right;">x</button>
-
-    <select id="undo-options" size="4">
-        <option>Last Shape</option>
-        <option>All Shapes</option>
-        <option>Last Multiple</option>
-        <option disabled>Specific Range</option>
-    </select>
-
-    <div style="display: none;margin-top: 20px;margin-bottom: 20px;margin-right: 12px;float: right;">
-        Digit/Number:<br>
-        <input type="text" id="number-of-shapes-to-undo" style="padding: 0;width: 90px;text-align: center;border-radius: 0;margin-top: 6px;">
-    </div>
-
-    <br><br><br><br><br>
-
-    <button id="btn-undo" style="float:right;">Undo</button>
-</div>
-
-<div id="dataURL-popup" class="white_content">
-    <button id="btn-close-dataURL-popup" style="float:right;">x</button>
-
-    <select id="data-url-format" size="4">
-        <option>image/png</option>
-        <option>image/jpeg</option>
-        <option>image/gif</option>
-        <option>image/webp</option>
-    </select>
-
-		<a id="link-to-image" target="_blank" download="image.png"></a>
-
-    <br><br><br><br><br>
-
-    <button id="btn-getDataURL" style="float:right;">Get DataURL</button>
-</div>
-
-<div id="comments-popup" class="white_content">
-    <button id="btn-close-comments-popup" style="float:right;">x</button>
-
-		<h2 id="h2-close-popup">Click right-side "x" button to close this popup.</h2>
-		<section class="experiment">
-        <h2 class="header" id="feedback">Feedback</h2>
-        <div>
-            <textarea id="message" style="height: 8em; margin: .2em; width: 98%; border: 1px solid rgb(189, 189, 189); outline: none; resize: vertical;" placeholder="Have any message? Suggestions or something went wrong?"></textarea>
-        </div>
-        <button id="send-message" style="font-size: 1em;">Send Message</button><small style="margin-left:1em;">Enter your email too; if you want "direct" reply!</small>
-    </section>
-</div>
-
-<div style="position: fixed; right: 0; width: 19%; padding: 1%;top:0; text-align: center;">
-    <h1>Canvas Designer!</h1>
-    <h2>
-        <a href="https://github.com/muaz-khan/Canvas-Designer">This tool is Open-Sourced!</a>
-    </h2>
-
-    Author: <a href="https://github.com/muaz-khan">Muaz Khan</a>
-
-    <hr>
-    <h2><a href="https://github.com/muaz-khan/Canvas-Designer#how-to-use">How to use in your own site?</a></h2>
-
-    <hr>
-
-    <h2><a href="https://rtcmulticonnection.herokuapp.com/demos/dashboard/">WebRTC Dashboard</a></h2>
-
-    <br><br><br>
-
-		<div style="text-align:cener;margin-top:15px;">
-			<p style="font-size:22px;color:red;">Ask Questions Here:</p>
-			<button id="btn-comments">Comments<br>Discussion</button>
-		</div>
 </div>
 
 <script>
@@ -371,7 +225,7 @@ document.getElementById('open-room').onclick = function() {
 var designer = new CanvasDesigner();
 
 // you can place widget.html anywhere
-designer.widgetHtmlURL = 'widget.html';
+designer.widgetHtmlURL = 'paint/index.html';
 designer.widgetJsURL = 'widget.min.js'
 
 designer.addSyncListener(function(data) {
